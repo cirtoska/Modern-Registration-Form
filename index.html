@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/423f2883f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Modern Contact Form</title>
+  </head>
+  <body>
+    <div class="modernForm">
+      <div class="imageSection">
+        <div class="image">
+          <div class="overlay"></div>
+          <img src="./images/pexels-yuri-manei-2272854.jpg" alt="music" />
+        </div>
+        <div class="textInside">
+          <h1>Bring Your Music Along</h1>
+          <p class="tagLine">try Unlimited</p>
+        </div>
+        <div class="service">
+          <p><span class="price">$9.99</span> / Month</p>
+        </div>
+      </div>
+      <div class="contactForm">
+        <h1 class="reg-title">Registaration Form</h1>
+        <form>
+          <div class="name">
+            <label for="fullName">Full Name:</label>
+            <input type="text" name="fullName" id="fullName" placeholder="ex: Lindsey Wilson" required/>
+            <div class="iconName"><i class="fa-solid fa-user"></i></div>
+          </div>
+          <div class="name">
+            <label for="email">Your Email:</label>
+            <input type="email" name="email" id="email" required />
+            <div class="iconName"><i class="fa-solid fa-envelope"></i></i></div>
+          </div>
+          <div class="name">
+            <label for="Password">Password:</label>
+            <input type="password" name="password" id="password" required />
+            <div class="iconName"><i class="fa-solid fa-lock"></i></div>
+          </div>
+          <div class="name">
+            <label for="Password">Confirm Password:</label>
+            <input type="password" name="password" id="password" required />
+            <div class="iconName"><i class="fa-solid fa-lock"></i></div>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="checkbox" name="checkbox" required>
+            <label for="checkbox">By signing up, you agree to the
+             <p><a href="#">Play Term of Service</p></label>
+          </div>
+          <input type="submit" value="Register">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
